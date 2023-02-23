@@ -1,0 +1,14 @@
+.home__wrapper {
+    margin: 0 auto;
+    width: 986px;
+    /* margin:47px 0 50px; */
+  }
+
+  .home__grid {
+    margin:  0 auto;
+    padding: 70px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 19px;
+  }
